@@ -11,23 +11,23 @@
 2.	А так же подключен репозиторий в среде разработки vscode
 3.	Для Установки Qt на операционную систему Linux были использованы следующие команды:
 
-
+#
 Для обновления списка пакетов.
 
-# sudoapt-getupdate
-
+ sudoapt-getupdate
+#
 Для установки Qt.
 
-# sudo apt-get install qt5-default
-
+ sudo apt-get install qt5-default
+#
 Для установки QtCreator.
 
-# sudoapt-getinstallqtcreator
-
+ sudoapt-getinstallqtcreator
+#
 Для установки примеров программ на qt5(При необходимости):
 
-# sudo apt-get install qtbase5-examples qtdeclarative5-examples
-
+ sudo apt-get install qtbase5-examples qtdeclarative5-examples
+#
 
 4.	Далее я записал код создания приложения в файл main.cpp(Файл в репозитории).
 
