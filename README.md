@@ -29,7 +29,7 @@ sudoapt-getinstallqtcreator
 sudo apt-get install qtbase5-examples qtdeclarative5-examples
 #
 
-4.	Далее я записал код создания приложения в файл main.cpp.
+4.	Далее я записал код создания приложения в файл main.cpp(Файл в репозитории).
 
 
 5.	Собрал и запустил приложение.
