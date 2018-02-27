@@ -30,26 +30,8 @@ sudo apt-get install qtbase5-examples qtdeclarative5-examples
 #
 
 4.	Далее я записал код создания приложения в файл main.cpp.
-#
-#include <QApplication>
-#include <QMainWindow>
-#include <QDesktopWidget>
-#include <QMenuBar>
 
-int main(intargc, char *argv[])
-{
-QApplicationa(argc, argv);
-QMainWindow w;
-QMenu *fileMenu = w.menuBar()->addMenu("&File");
 
-QDesktopWidgetdw;
-int x=dw.width()*0.7;
-int y=dw.height()*0.7;
-w.setFixedSize(x,y);
-w.show();
-returna.exec();
-}
-#
 5.	Собрал и запустил приложение.
 
 
